@@ -1,5 +1,3 @@
 [build]
-  publish = "."
-
-[functions]
-  directory = "netlify/functions"
+  command = "echo 'Static public folder'"
+  publish = "public"
